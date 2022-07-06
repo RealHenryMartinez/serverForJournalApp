@@ -55,7 +55,6 @@ server.post('/add-journal', (req, res) => {
 // else here
 		res.status(200).send({
 			msg: 'journal was created',
-			
 			document: result,
 			// id: id,
 		});
